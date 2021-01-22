@@ -1,0 +1,32 @@
+#!/bin/bash
+#    --nodeAuditSkipDevDependencies \
+dependency-check \
+    --scan '.' \
+    --disableNodeAuditCache \
+    --disableArchive \
+    --disableAssembly \
+    --disableAutoconf \
+    --disableBundleAudit \
+    --disableCentral \
+    --disableCentralCache \
+    --disableCmake \
+    --disableCocoapodsAnalyzer \
+    --disableComposer \
+    --disableGolangDep \
+    --disableGolangMod \
+    --disableJar \
+    --disableMixAudit \
+    --disableMSBuild \
+    --disableNugetconf \
+    --disableNuspec \
+    --disableOpenSSL \
+    --disableOssIndex \
+    --disableOssIndexCache \
+    --disablePip \
+    --disablePipfile \
+    --disablePyDist \
+    --disablePyPkg \
+    --disableSwiftPackageManagerAnalyzer \
+    --disableRetireJS \
+    --disableRubygems \
+    --log ./odc.log
